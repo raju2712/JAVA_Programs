@@ -13,11 +13,16 @@ public class RevesrAstring {
 		}
 		System.out.println(rev);
 		
+		//===============FOR PALINDROME==================//
+		
 		if(rev.equalsIgnoreCase(s)) {
 			System.out.println(s + " is a palindrome");
 		}else {
 			System.out.println(s + " is not a palindrome");
 		}
+		
+		
+		
 		
 	}
 
