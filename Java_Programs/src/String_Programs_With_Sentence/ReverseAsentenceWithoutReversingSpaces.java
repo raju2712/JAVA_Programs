@@ -13,7 +13,7 @@ public class ReverseAsentenceWithoutReversingSpaces {
 			if(s.charAt(i)==' ') {       //if 's' has space at that index 
 				System.out.print(' ');   //'s1' should also print space
 			}else {
-				System.out.print(s1.charAt(index--));
+				System.out.print(s1.charAt(index--));   //if not print the character
 			}
 		}
 		
@@ -21,5 +21,4 @@ public class ReverseAsentenceWithoutReversingSpaces {
 		
 		
 	}
-
 }
