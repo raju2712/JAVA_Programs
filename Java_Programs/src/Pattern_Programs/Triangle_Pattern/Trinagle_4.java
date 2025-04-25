@@ -1,4 +1,4 @@
-package Pattern_Programs.Trinagle_Pattern;
+package Pattern_Programs.Triangle_Pattern;
 
 public class Trinagle_4 {
 
