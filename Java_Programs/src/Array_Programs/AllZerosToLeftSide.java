@@ -1,8 +1,8 @@
-package Assignment;
+package Array_Programs;
 
 import java.util.Arrays;
 
-public class LeftAllZerosToRightSide {
+public class AllZerosToLeftSide {
 
 	public static void main(String[] args) {
 
@@ -27,6 +27,8 @@ public class LeftAllZerosToRightSide {
 		}
 		System.out.println(Arrays.toString(b));
 
+
+		
 		
 		
 

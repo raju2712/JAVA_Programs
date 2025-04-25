@@ -8,6 +8,7 @@ public class RemoveDuplicates {
 
 		LinkedHashSet lhs = new LinkedHashSet();
 		String s ="aabbccdeefghg";
+		
 		for(int i = 0 ; i<s.length(); i++) {
 			lhs.add(s.charAt(i));
 		}

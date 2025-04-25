@@ -2,7 +2,7 @@ package Assignment;
 
 import java.util.LinkedHashMap;
 
-public class OccuranceString {
+public class OccuranceOfString {
 
 	
 public static void main(String[] args) {

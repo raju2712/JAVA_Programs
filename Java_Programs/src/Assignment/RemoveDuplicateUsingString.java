@@ -5,13 +5,13 @@ import java.util.LinkedHashSet;
 public class RemoveDuplicateUsingString {
 
 	public static void main(String[] args) {
-		LinkedHashSet set = new LinkedHashSet();
+		LinkedHashSet lhs = new LinkedHashSet();
 		String s = "My name is My name is john";
 		
-		for(int i=0; i<s.length(); i++) {
-			set.add(s.charAt(i));
+		for(int i = 0 ; i<s.length(); i++) {
+			lhs.add(s.charAt(i));
 		}
-
-		System.out.println(set);
+		System.out.println(lhs);
 	}
-}
+	}
+
