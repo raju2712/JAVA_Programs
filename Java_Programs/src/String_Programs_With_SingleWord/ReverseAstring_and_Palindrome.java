@@ -1,6 +1,6 @@
 package String_Programs_With_SingleWord;
 
-public class RevesrAstring {
+public class ReverseAstring_and_Palindrome {
 
 	public static void main(String[] args) {
 
