@@ -1,4 +1,4 @@
-package String_Programs_With_SingleWord;
+package String_Programs.With_SingleWord;
 
 public class CountAlphabetsSpecialcharactersAndDigit {
 

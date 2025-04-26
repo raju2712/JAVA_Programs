@@ -1,4 +1,4 @@
-package String_Programs_With_Sentence;
+package String_Programs.With_Sentence;
 
 public class ReverseAsentenceWithoutReversingSpaces {
 
