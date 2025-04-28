@@ -24,10 +24,10 @@ public class FindSumOfTwoArrays {
 		
 		for(int i=0; i<max; i++) {
 			if(i<a.length) {
-				sum[i]+=a[i];
+				sum[i] += a[i];
 			}
 			if(i<b.length) {
-				sum[i]+=b[i];
+				sum[i] += b[i];
 			}
 		}
 		System.out.println(Arrays.toString(sum));

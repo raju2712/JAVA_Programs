@@ -26,7 +26,7 @@ public class FindMaxAndMinElement {
 				min = a[i];
 			}
 		}
-		System.out.println("Min element is " +min + " and Max element is " + max);
+		System.out.println("Min element is '" +min + "' and Max element is '" + max + "'");
 		
 		
 	}

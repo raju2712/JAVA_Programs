@@ -30,7 +30,7 @@ public class FindPositionsOfAllDuplicateElements {
 		
 		for (Entry<Integer,ArrayList<Integer>> map : lhm.entrySet()) {
 			if(map.getValue().size()>0) {
-				System.out.println(map.getKey() + " "+map.getValue());
+				System.out.println(map.getKey() + " " + map.getValue());
 			}
 		}
 		
