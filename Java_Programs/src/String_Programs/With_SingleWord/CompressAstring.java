@@ -14,7 +14,7 @@ public class CompressAstring {
 				count=1;
 			}
 		}
-		System.out.print(s.charAt(s.length() - 1) +""+ count);
+		System.out.print(s.charAt(s.length() - 1) + "" + count);
 	}
 
 }
