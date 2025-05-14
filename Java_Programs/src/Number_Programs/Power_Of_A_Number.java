@@ -9,10 +9,10 @@ public class Power_Of_A_Number {
 		Scanner s = new Scanner(System.in);
 
 		System.out.println("Enter the number :");
-		int n = s.nextInt();
+		int n = s.nextInt();   //10
 
 		System.out.println("Enter Power of " + n);
-		int power = s.nextInt();
+		int power = s.nextInt();   //2
 
 		int prod = 1;
 
