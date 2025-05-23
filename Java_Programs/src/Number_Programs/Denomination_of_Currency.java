@@ -13,7 +13,7 @@ public class Denomination_of_Currency {
 
 		int[] notes = { 2000, 500, 200, 100, 50, 20, 10, 5, 2, 1 };
 
-		for (int i = 0; i <= notes.length; i++) {
+		for (int i = 0; i < notes.length; i++) {
 			int denomination = amount / notes[i]; // to get quotient
 			System.out.println(notes[i] + " is " + denomination + " notes");
 			amount = amount % notes[i];           // to get remainder

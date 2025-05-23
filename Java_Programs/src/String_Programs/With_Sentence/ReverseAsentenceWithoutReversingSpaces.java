@@ -16,9 +16,6 @@ public class ReverseAsentenceWithoutReversingSpaces {
 				System.out.print(s1.charAt(index--));   //if not print the character
 			}
 		}
-		
-		
-		
-		
+
 	}
 }

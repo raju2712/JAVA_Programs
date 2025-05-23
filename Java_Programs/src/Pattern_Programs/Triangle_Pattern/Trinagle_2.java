@@ -7,7 +7,7 @@ public class Trinagle_2 {
 		for (int i = 1; i <= 3; i++) {
 			for (int j = 0; j <= 3; j++) {
 				if (i <= j) {
-					System.out.print("* ");    //left to right diagonal and upper
+					System.out.print("* ");    //i<=j --- left to right diagonal and upper
 				} else {
 					System.out.print("  ");
 				}

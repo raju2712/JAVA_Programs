@@ -14,15 +14,15 @@ public class Number_is_Palindrome_or_Not {
 		int reversed = 0;
 		
 		while (n != 0) {                            //20 != 0
-            int remaining = n % 10;                 //20 % 10 = 2
-            reversed = reversed * 10 + remaining;   //0 * 10 + 2
-            n = n / 10;                             //20 / 10 = 0
+            int remaining = n % 10;                 //20 % 10 = 10
+            reversed = reversed * 10 + remaining;   //0 * 10 + 2 = 2
+            n = n / 10;                             //20 / 10 = 2
         }
 
         if (original == reversed) {
-            System.out.println(original + " is a palindrome.");
+            System.out.println(original + " is a palindrome");
         } else {
-            System.out.println(original + " is not a palindrome.");
+            System.out.println(original + " is not a palindrome");
         }
        
         

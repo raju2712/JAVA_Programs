@@ -12,7 +12,7 @@ public class Trinagle_3 {
 
 		for (int i = 1; i <=3 ; i++) {
 			for (int j = 1; j <=3 ; j++) {
-				if (i+j<=4) {                  //  <=row+1
+				if (i+j<=4) {                  //  i+j<=row+1
 					System.out.print("* ");    //right to left diagonal and upper
 				}else {
 					System.out.print("  ");

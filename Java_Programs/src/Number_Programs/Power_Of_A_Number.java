@@ -20,10 +20,7 @@ public class Power_Of_A_Number {
 			prod = prod * n;
 		}
 		System.out.println(prod);
-		
-		
-		
-		
+	
 	}
 
 }

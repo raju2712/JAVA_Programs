@@ -16,7 +16,7 @@ public class Trinagle_1 {
 		for (int i = 1; i <=3; i++) {
 			for (int j = 1; j <=3; j++) {
 				if (i >= j) {
-					System.out.print("* ");    //left to right diagonal and lower
+					System.out.print("* ");    // i>=j ---- left to right diagonal and lower
 				}else {
 					System.out.print("  ");
 				}

@@ -6,24 +6,21 @@ public class ReverseAstring_and_Palindrome {
 
 		String s = "Raju";
 		String rev = "";
-		
-		for(int i = s.length()-1 ; i>=0 ; i--) {
+
+		for (int i = s.length() - 1; i >= 0; i--) {
 			char ch = s.charAt(i);
 			rev = rev + ch;
 		}
 		System.out.println(rev);
-		
-		//===============FOR PALINDROME==================//
-		
-		if(rev.equalsIgnoreCase(s)) {
+
+		// ===============FOR PALINDROME================== //
+
+		if (rev.equalsIgnoreCase(s)) {
 			System.out.println(s + " is a palindrome");
-		}else {
+		} else {
 			System.out.println(s + " is not a palindrome");
 		}
-		
-		
-		
-		
+
 	}
 
 }

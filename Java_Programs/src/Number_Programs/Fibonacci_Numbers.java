@@ -9,17 +9,13 @@ public class Fibonacci_Numbers {
 
 		for (int i = 1; i <= 15; i++) {
 			
-			System.out.print(a + " ");  //to print horizontal
+			System.out.print(a + ",");  //to print horizontal
 			
 			int c = a + b;
 			a = b;
 			b = c;
 
-			//System.out.println(c);    //to print vertical
 		}
-		
-		
-		
 		
 	}
 

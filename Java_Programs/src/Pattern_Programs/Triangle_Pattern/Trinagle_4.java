@@ -7,7 +7,7 @@ public class Trinagle_4 {
 		int rows = 3;
 		for (int i = 1; i <=rows; i++) {
 			for (int j = 1; j <=rows; j++) {
-				if (i+j>= rows+1) {                  //  >=row+1
+				if (i+j>= rows+1) {                  //  i+j>=row+1
 					System.out.print("* ");          //right to left diagonal and lower
 				}else {
 					System.out.print("  ");

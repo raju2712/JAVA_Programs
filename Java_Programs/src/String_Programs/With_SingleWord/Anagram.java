@@ -12,8 +12,8 @@ public class Anagram {
 		if(s1.length()==s2.length()) {
 			
 			//Converting the strings to lowercase and array
-			char[] ch1 = s1.toLowerCase().toCharArray();  
-			char[] ch2 = s2.toLowerCase().toCharArray();
+			char[] ch1 = s1.toLowerCase().toCharArray();     //   [r, a, c, e]
+			char[] ch2 = s2.toLowerCase().toCharArray();     //   [c, a, r, e]
 			
 			//Sort
 			Arrays.sort(ch1);
@@ -28,8 +28,6 @@ public class Anagram {
 		}else {
 			System.out.println("Length of the "+s1+" and"+s2 +" strings are different,So its not an anagram");
 		}
-		
-		
 		
 		
 	}
