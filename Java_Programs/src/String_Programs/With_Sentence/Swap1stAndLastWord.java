@@ -8,8 +8,8 @@ public class Swap1stAndLastWord {
 
 		String s = "I am Raju";
 		String[] str = s.split(" ");
-		String temp = str[str.length-1];  //3-1 = 2   //temp = Raju
 		
+		String temp = str[str.length-1];  //3-1 = 2   //temp = Raju
 		str[str.length-1] = str[0];       //str[2] = I
 		str[0] = temp;                    //str[0] = Raju
 		

@@ -1,5 +1,6 @@
 package String_Programs.With_SingleWord;
 
+import java.util.HashSet;
 import java.util.LinkedHashSet;
 
 public class RemoveDuplicates {
@@ -8,7 +9,9 @@ public class RemoveDuplicates {
 
 		String s ="aabbccdeefghg";
 		
-		LinkedHashSet lhs = new LinkedHashSet();
+		//HashSet<Character> lhs = new HashSet<Character>();
+	    //                (or)
+		  LinkedHashSet lhs = new LinkedHashSet();
 		
 		for(int i = 0 ; i<s.length(); i++) {
 			lhs.add(s.charAt(i));

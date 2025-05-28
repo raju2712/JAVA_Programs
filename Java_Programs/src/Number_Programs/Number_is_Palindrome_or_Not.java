@@ -13,10 +13,10 @@ public class Number_is_Palindrome_or_Not {
 		int original = n;
 		int reversed = 0;
 		
-		while (n != 0) {                            //20 != 0
-            int remaining = n % 10;                 //20 % 10 = 10
-            reversed = reversed * 10 + remaining;   //0 * 10 + 2 = 2
-            n = n / 10;                             //20 / 10 = 2
+		while (n != 0) {                            //20 != 0         
+            int remaining = n % 10;                 //20 % 10 = 10       121---12
+            reversed = reversed * 10 + remaining;   //0 * 10 + 2 = 2     12
+            n = n / 10;                             //20 / 10 = 2        1
         }
 
         if (original == reversed) {

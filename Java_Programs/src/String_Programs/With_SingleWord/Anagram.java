@@ -11,11 +11,9 @@ public class Anagram {
 		
 		if(s1.length()==s2.length()) {
 			
-			//Converting the strings to lowercase and array
 			char[] ch1 = s1.toLowerCase().toCharArray();     //   [r, a, c, e]
 			char[] ch2 = s2.toLowerCase().toCharArray();     //   [c, a, r, e]
 			
-			//Sort
 			Arrays.sort(ch1);
 			Arrays.sort(ch2);
 			

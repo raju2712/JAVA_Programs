@@ -4,7 +4,7 @@ public class OccurenceOfCharWithoutCollection {
 
 	public static void main(String[] args) {
 		
-		String s = "My name is Raju";
+		  String s = "My name is Raju";
 	      char[] ch = s.toLowerCase().toCharArray();
 	      for(int i=0; i<=ch.length-1;i++){
 	          int count=1;
@@ -18,6 +18,15 @@ public class OccurenceOfCharWithoutCollection {
 	              System.out.println(ch[i]+" "+count);
 	          }
 	          
+	          //Print unique
+//	          if(ch[i]!='@' && count==1){
+//	              System.out.println(ch[i]);
+//	          }
+	          
+	          //Print duplicate
+//	          if(ch[i]!='@' && count>1 && ch[i]!=' '){
+//	              System.out.println(ch[i]);
+//	          }
 	      }
 
 	}
