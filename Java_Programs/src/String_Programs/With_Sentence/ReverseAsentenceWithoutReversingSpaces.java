@@ -4,7 +4,7 @@ public class ReverseAsentenceWithoutReversingSpaces {
 
 	public static void main(String[] args) {
 
-		String s = "I am Raju";                         //index 8 , length 9
+		String s = "I am a Raju";                         //index 8 , length 9
 		String s1 = s.replace(" ", "");                 //IamRaju  , length 7
 		
 		int index = s1.length()-1;                      //7-1 = 6

@@ -4,7 +4,7 @@ public class CountAlphabetsSpecialcharactersAndDigit {
 
 	public static void main(String[] args) {
 
-		String s = "*raju2712$";
+		String s = "*r2a7j1u2$";
 
 		int splCount = 0, alphaCount = 0, digitCount = 0;
 

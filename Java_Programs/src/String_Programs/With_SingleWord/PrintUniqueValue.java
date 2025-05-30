@@ -12,6 +12,7 @@ public class PrintUniqueValue {
 		LinkedHashMap<Integer, Integer> map = new LinkedHashMap<>();
 
 		for (int num : arr) {
+
 			if (map.containsKey(num)) {
 				map.put(num, map.get(num) + 1);
 			} else {
@@ -31,7 +32,7 @@ public class PrintUniqueValue {
 		}
 
 		System.out.println("====================");
-		
+
 		// Print only Duplicate
 		for (Map.Entry<Integer, Integer> hs : map.entrySet()) {
 			if (hs.getValue() > 1) {

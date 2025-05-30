@@ -1,6 +1,6 @@
 package String_Programs.With_Sentence;
 
-public class SumOfNumbersFromString {
+public class SumOfNumbersFromSentence {
 
 	public static void main(String[] args) {
 
@@ -29,24 +29,12 @@ public class SumOfNumbersFromString {
 		//-----------------------------------------------------------
 		
 		char[] arr = s.toCharArray();
-		for(char ch : arr ) {    //1+2+3+3+2+4
+		for(char ch : arr ) {                        //1+2+3+3+2+4
 			if(Character.isDigit(ch)) {
 				sum += Character.getNumericValue(ch);
 			}
 		}
 		System.out.println(sum);
-		
-		//---------------------------------------------------------
-		
-//		char[] ch = s.toCharArray();
-//		for(int i=0; i<=s.length(); i++) {
-//			for(int j=0; j<=s.length(); j++) {
-//				if(ch[i].isDigit && ch[j].isDigit) {
-//					int total = ch[i] + ch[j];
-//				}
-//			}
-//		}
-//		System.out.println(sum);
 		
 		}
 	}

@@ -5,15 +5,16 @@ public class SumOfNumbersInString {
 	public static void main(String[] args) {
 
 		String s = "kr15rv06rp25rr27";
-		int sum = 0;
+		int sum =0;
+		char[] ch = s.toCharArray();
 		
-		for(int i=0; i>=s.length(); i++) {
-			char ch = s.charAt(i);
-			if(ch>=48 && ch<=57) {
-				sum+=ch-48; //to covert char to int
+		for (char c : ch) {
+			if(Character.isDigit(c)) {
+				sum += Character.getNumericValue(c);
 			}
 		}
 		System.out.println(sum);
+		
 	}
 
 }
