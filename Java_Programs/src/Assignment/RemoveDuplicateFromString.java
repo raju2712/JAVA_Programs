@@ -2,7 +2,7 @@ package Assignment;
 
 import java.util.LinkedHashSet;
 
-public class RemoveDuplicateUsingString {
+public class RemoveDuplicateFromString {
 
 	public static void main(String[] args) {
 		LinkedHashSet lhs = new LinkedHashSet();

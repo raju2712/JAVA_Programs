@@ -6,7 +6,7 @@ import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Set;
 
-public class RemovingDuplicateUsingList {
+public class RemoveDuplicateFromList {
 
 	   public static void main(String[] args) {
 	        // Using List instead of array

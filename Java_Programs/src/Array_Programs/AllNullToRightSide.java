@@ -1,4 +1,4 @@
-package Assignment;
+package Array_Programs;
 
 import java.util.Arrays;
 
@@ -6,7 +6,7 @@ public class AllNullToRightSide {
 
 	public static void main(String[] args) {
 
-		String[] a = { null, "qspiders", "testing", "java", null, null };
+		String[] a = { null, "spiders", "testing", "java", null, null };
 		String[] b = new String[a.length - 1];
 
 		int index = 0;

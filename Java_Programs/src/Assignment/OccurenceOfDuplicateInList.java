@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-public class DuplicateUsingList {
+public class OccurenceOfDuplicateInList {
 
 	 public static void main(String[] args) {
 	        // Using a List instead of an array
@@ -23,6 +23,7 @@ public class DuplicateUsingList {
 	        }
 
 	        // Print only numbers that occur once
+	        System.out.println("Occurrences of each integer:");
 	        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
 	            if (entry.getValue() > 1) {
 	                System.out.println(entry.getKey() + " : " + entry.getValue());

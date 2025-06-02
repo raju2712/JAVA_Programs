@@ -1,6 +1,6 @@
 package Array_Programs;
 
-public class FindSecondMaxElement {
+public class FindSecondMaxDigit {
 
 	public static void main(String[] args) {
 
@@ -18,8 +18,6 @@ public class FindSecondMaxElement {
 				smax = a[i];
 			}
 		}
-		System.out.println("Second Max element is " + smax);
-
+		System.out.println("Second Maximum digit is " + smax);
 	}
-
 }

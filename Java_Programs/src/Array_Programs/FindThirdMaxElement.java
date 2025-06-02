@@ -1,4 +1,4 @@
-package Assignment;
+package Array_Programs;
 
 public class FindThirdMaxElement {
 

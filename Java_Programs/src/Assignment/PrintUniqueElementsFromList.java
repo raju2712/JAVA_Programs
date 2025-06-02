@@ -5,7 +5,7 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.Map;
 
-public class UniqueUsingList {
+public class PrintUniqueElementsFromList {
 
 	public static void main(String[] args) {
 		// Using a List instead of an array

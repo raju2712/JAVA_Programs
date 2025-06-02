@@ -3,7 +3,7 @@ package Assignment;
 import java.util.LinkedHashMap;
 import java.util.Map.Entry;
 
-public class PrintOnlyunique {
+public class PrintUniqueElementsFromString {
 
 public static void main(String[] args) {
 		
@@ -24,7 +24,7 @@ public static void main(String[] args) {
 		for(Entry<Character, Integer> hs:map.entrySet()) {
 			if(hs.getValue()==1) {
 				System.out.println(hs.getKey());
-				System.out.println(hs.getValue());
+				
 			}
 		}
 	}

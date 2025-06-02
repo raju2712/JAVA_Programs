@@ -2,8 +2,9 @@ package Assignment;
 
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.Map.Entry;
 
-public class DuplicateUsingArray {
+public class PrintUniqueElementsFromArray {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -21,9 +22,11 @@ public class DuplicateUsingArray {
 	            }
 	        }
 	        for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-	        	if(entry.getValue()>1)
+	        	if(entry.getValue()==1)
 	            System.out.println(entry.getKey() + " : " + entry.getValue());
 	        }
 			}
+		}
+	
 
-}
+

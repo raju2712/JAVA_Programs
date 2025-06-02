@@ -3,7 +3,7 @@ package Assignment;
 import java.util.LinkedHashSet;
 import java.util.Set;
 
-public class RemovingDuplicateUsingArray {
+public class RemoveDuplicateFromArray {
 
     public static void main(String[] args) {
         int[] arr = {1, 2, 3, 1, 2, 3, 2, 3};
