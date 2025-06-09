@@ -22,5 +22,4 @@ public class ReverseAstring_and_Palindrome {
 		}
 
 	}
-
 }

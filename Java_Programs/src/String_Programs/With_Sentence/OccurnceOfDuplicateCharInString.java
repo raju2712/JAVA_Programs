@@ -12,15 +12,17 @@ public class OccurnceOfDuplicateCharInString {
 		LinkedHashMap<Character, Integer> map = new LinkedHashMap();
 		for (int i = 0; i < s.length(); i++) {
 			char ch = s.charAt(i);
-
 			if (map.containsKey(ch)) {
-
 				map.put(ch, map.get(ch) + 1);
 			} else {
 				map.put(ch, 1);
-
 			}
 		}
+		
+		System.out.println(map);
+		
+		System.out.println("============================");
+		
 		for (Entry<Character, Integer> hs : map.entrySet()) {
 			if (hs.getValue() > 1) {
 				System.out.println(hs.getKey()+" "+hs.getValue());

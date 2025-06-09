@@ -28,7 +28,5 @@ public class Prime_Number {
 		} else {
 			System.out.println(n + " is a prime number");
 		}
-
 	}
-
 }

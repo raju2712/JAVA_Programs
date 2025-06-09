@@ -18,6 +18,7 @@ public class CountAlphabetsSpecialcharactersAndDigit {
 				splCount++;
 			}
 		}
+		
 		System.out.println("Special Characters: " + splCount);
 		System.out.println("Alphabets: " + alphaCount);
 		System.out.println("Digits: " + digitCount);

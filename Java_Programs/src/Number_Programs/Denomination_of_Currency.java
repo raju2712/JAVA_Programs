@@ -9,6 +9,7 @@ public class Denomination_of_Currency {
 //		Scanner s = new Scanner(System.in);
 //		System.out.println("Enter the amount :");
 //		int amount = s.nextInt();
+		
 		int amount = 2888;
 
 		int[] notes = { 2000, 500, 200, 100, 50, 20, 10, 5, 2, 1 };

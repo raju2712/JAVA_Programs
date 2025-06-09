@@ -10,7 +10,7 @@ public class Panagram {
 		String s1 = s.toLowerCase();
 		
 		HashSet hs = new HashSet();
-		 
+		
 		for(int i=0; i<s.length()-1; i++) {
 			char ch = s1.charAt(i);
 			if(Character.isAlphabetic(ch)) {

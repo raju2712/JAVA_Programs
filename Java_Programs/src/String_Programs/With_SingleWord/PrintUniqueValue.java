@@ -12,18 +12,12 @@ public class PrintUniqueValue {
 		LinkedHashMap<Integer, Integer> map = new LinkedHashMap<>();
 
 		for (int num : arr) {
-
 			if (map.containsKey(num)) {
 				map.put(num, map.get(num) + 1);
 			} else {
 				map.put(num, 1);
 			}
 		}
-		// Find occurence
-		System.out.println(map);
-
-		System.out.println("====================");
-
 		// Print Unique value
 		for (Map.Entry<Integer, Integer> hs : map.entrySet()) {
 			if (hs.getValue() == 1) {
@@ -32,12 +26,19 @@ public class PrintUniqueValue {
 		}
 
 		System.out.println("====================");
-
+		
 		// Print only Duplicate
 		for (Map.Entry<Integer, Integer> hs : map.entrySet()) {
 			if (hs.getValue() > 1) {
 				System.out.println(hs.getKey() + " occurs " + hs.getValue() + " time");
 			}
+		System.out.println("====================");
+		
+		// Find occurence
+		System.out.println(map);
+		System.out.println("====================");
+
+		
 		}
 	}
 }
