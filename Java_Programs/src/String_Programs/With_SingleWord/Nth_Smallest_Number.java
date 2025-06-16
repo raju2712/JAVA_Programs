@@ -27,7 +27,7 @@ public class Nth_Smallest_Number {
 		} else {
 			Arrays.sort(array);
 
-			int NthSmallest = array[N - 1]; //N - 1 to fetch smallest number
+			int NthSmallest = array[N - 1];                  //size - N to fetch Largest number
 			System.out.println(N + "th Smallest number is : " + NthSmallest);
 		}
 
