@@ -10,7 +10,7 @@ public class FindPositionsOfAllDuplicateElements {
 
 		int[] a = { 1, 2, 3, 1, 2, 3, 3, 4 };
 
-		LinkedHashMap<Integer, ArrayList<Integer>> lhm = new LinkedHashMap();
+		LinkedHashMap<Integer, ArrayList<Integer>> lhm = new LinkedHashMap<>();
 
 		for (int i = 0; i < a.length; i++) {
 

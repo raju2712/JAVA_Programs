@@ -19,7 +19,5 @@ public class FindMaxAndMinElement {
 			}
 		}
 		System.out.println("Min element is '" + min + "' and Max element is '" + max + "'");
-
 	}
-
 }
