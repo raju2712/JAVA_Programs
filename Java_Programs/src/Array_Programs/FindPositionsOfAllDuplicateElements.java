@@ -26,6 +26,5 @@ public class FindPositionsOfAllDuplicateElements {
 				System.out.println(map.getKey() + " " + map.getValue());
 			}
 		}
-
 	}
 }

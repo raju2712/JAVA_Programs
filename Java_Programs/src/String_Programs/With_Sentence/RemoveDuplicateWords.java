@@ -10,7 +10,7 @@ public class RemoveDuplicateWords {
 		String s = "HELLO HI HELLO BYE";          
 		String[] str = s.split(" ");              // [HELLO, HI, HELLO, BYE]
 		
-		Set<String> hs = new LinkedHashSet();     //Insertion Order maintained
+		Set<String> hs = new LinkedHashSet<>();     //Insertion Order maintained
 		for(int i=0; i<=str.length-1; i++) {
 			hs.add(str[i]);
 		}

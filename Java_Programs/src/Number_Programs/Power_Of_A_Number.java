@@ -19,7 +19,7 @@ public class Power_Of_A_Number {
 		for (int i = 1; i <= power; i++) {
 			prod = prod * n;                   //1*10 = 10
 		}                                      //10*10 = 100
-		System.out.println(prod);              //100*10 = 1000
+		System.out.println(prod);              
 	
 	}
 

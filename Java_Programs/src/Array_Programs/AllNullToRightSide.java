@@ -17,6 +17,5 @@ public class AllNullToRightSide {
 			}
 		}
 		System.out.println(Arrays.toString(b));
-
 	}
 }

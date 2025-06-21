@@ -9,7 +9,7 @@ public class OccurnceOfDuplicateCharInString {
 
 		String s = "My name is My name is john"; 
 
-		LinkedHashMap<Character, Integer> map = new LinkedHashMap();
+		LinkedHashMap<Character, Integer> map = new LinkedHashMap<>();
 		for (int i = 0; i < s.length(); i++) {
 			char ch = s.charAt(i);
 			if (map.containsKey(ch)) {

@@ -17,11 +17,9 @@ public class FindThirdMaxElement {
 				smax = max;
 				max = a[i];
 			} else if (a[i] > smax && a[i] != max) {
-				
 				tmax = smax;
 				smax = a[i];
 			} else if (a[i] > tmax && a[i] != smax && a[i] != max) {
-				
 				tmax = a[i];
 			}
 		}

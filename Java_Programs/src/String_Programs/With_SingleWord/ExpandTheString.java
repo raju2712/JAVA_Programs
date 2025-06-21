@@ -9,12 +9,11 @@ public class ExpandTheString {
 		for (int i = 0; i < s.length(); i = i + 2) {
 
 			char ch = s.charAt(i);
-			int count = s.charAt(i + 1) - 48;     // to convert string to number
+			int count = s.charAt(i + 1) - 48;     // 48 is used to convert string to number
 
 			for (int j = 1; j <= count; j++) {
 				System.out.print(ch);
 			}
 		}
-
 	}
 }
