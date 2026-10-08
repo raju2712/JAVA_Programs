@@ -9,14 +9,23 @@ public class RemoveDuplicates {
 
 		String s ="aabbccdeefghg";
 		
-		//HashSet<Character> lhs = new HashSet<Character>();
+		HashSet<Character> lhs = new HashSet<Character>();
 	    //                (or)
-		  LinkedHashSet lhs = new LinkedHashSet();
+		 // LinkedHashSet lhs = new LinkedHashSet();
 		
 		for(int i = 0 ; i<s.length(); i++) {
 			lhs.add(s.charAt(i));
 		}
-		System.out.println(lhs);
+		System.out.println(lhs); //Print in Array
+		
+		//Print in String
+		StringBuilder result = new StringBuilder();
+		
+		for (Character ch : lhs) {
+            result.append(ch);
+        }
+
+        System.out.println(result.toString()); 
 	}
 
 }

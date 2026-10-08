@@ -14,5 +14,4 @@ public class SwapVariableUsing3rdVariable {
 		System.out.println(s1);
 		System.out.println(s2);
 	}
-
 }
